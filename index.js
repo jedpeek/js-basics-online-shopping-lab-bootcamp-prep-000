@@ -1,5 +1,5 @@
 var cart = [];
-
+var finalPrice = 0;
 function getCart() {
  return cart;
 }
