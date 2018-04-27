@@ -39,7 +39,7 @@ function viewCart() {
 
 
 function total() {
-  finalPrice = 0;
+  var finalPrice = 0;
   for(let i = 0; i < cart.length; i++){
     finalPrice += cart[i].itemPrice;
   }
