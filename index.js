@@ -47,7 +47,9 @@ return finalPrice;
 }
 
 function removeFromCart(item) {
-  // write your code here
+  if(item == cart[i].itemName){
+    cart.slice[i,1]
+  }
 }
 
 function placeOrder(cardNumber) {
