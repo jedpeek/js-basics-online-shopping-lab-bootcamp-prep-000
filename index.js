@@ -39,7 +39,7 @@ function viewCart() {
 
 
 function total() {
-  var finalPrice = 0;
+  finalPrice = 0;
   for(let i = 0; i < cart.length; i++){
     finalPrice += cart[i].itemPrice;
   }
@@ -58,8 +58,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   if(cardNumber !== undefined){
-    cart = [];
-    return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`
+    return `Your total cost is $${total()}, which will be charged to the card ${cardNumber}.`, && cart = [];
     
     }
      else{ 
