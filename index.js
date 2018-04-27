@@ -39,7 +39,11 @@ function viewCart() {
 
 
 function total() {
-
+  var finalPrice = 0;
+  for(let i = 0; i < cart.length; i++){
+    finalPrice += cart.itemPrice[i];
+  }
+return finalPrice;
 }
 
 function removeFromCart(item) {
