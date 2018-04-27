@@ -16,7 +16,7 @@ function addToCart(item) {
  return `${item} has been added to your cart.`;
 }
 
-/*
+
 function viewCart() {
     if(cart.length === 0){
     return "Your shopping cart is empty."
@@ -33,7 +33,7 @@ function viewCart() {
     }//for loop end
   }//else end
 }// view cart end
-*/
+
 
 function total() {
 
