@@ -28,8 +28,8 @@ function viewCart() {
    return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, and ${cart[1].itemName} at $${cart[1].itemPrice}.`
   }
   else{
-    for(let i = 0; i < cart.length-2; i++){
-      return `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}, ${cart[i+1].itemName} at $${cart[i + 1].itemPrice}, and quince at $91.`;
+    for(let i = 2; i < cart.length-2; i++){
+      return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice}, and ${cart.itemName[i]} at $${cart.itemPrice[i]}.`;
     }//for loop end
   }//else end
 }// view cart end
