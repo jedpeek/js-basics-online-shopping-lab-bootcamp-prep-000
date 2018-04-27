@@ -16,7 +16,8 @@ function addToCart(item) {
  return `${item} has been added to your cart.`;
 }
 
-/*function viewCart() {
+/*
+function viewCart() {
     if(cart.length === 0){
     return "Your shopping cart is empty."
   }
@@ -31,7 +32,8 @@ function addToCart(item) {
       `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}, ${cart[i+1].itemName} at $${cart[i + 1].itemPrice}, and quince at $91.`;
     }//for loop end
   }//else end
-}// view cart end*/
+}// view cart end
+*/
 
 function total() {
 
