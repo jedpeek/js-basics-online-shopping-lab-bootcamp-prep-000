@@ -32,7 +32,7 @@ function viewCart() {
     for(let i = 2; i < cart.length; i++){
     bigCart.concat(`, and ${cart[i].itemName} at $${cart[i].itemPrice}.`);
     }//for loop end
-    return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice}${bigCart}`
+    return `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart[1].itemPrice} ${bigCart}`
   }//else end
 }// view cart end
 
