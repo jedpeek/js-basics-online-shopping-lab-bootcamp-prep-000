@@ -48,7 +48,7 @@ return finalPrice;
 
 function removeFromCart(item) {
   if(item == cart[i].itemName){
-    cart.slice[i,1]
+    cart.slice(i,1)
   }
 }
 
