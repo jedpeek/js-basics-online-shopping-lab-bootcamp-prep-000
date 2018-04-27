@@ -29,7 +29,7 @@ function viewCart() {
   }
   else{
     for(let i = 0; i < cart.length-2; i++){
-      `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}, ${cart[i+1].itemName} at $${cart[i + 1].itemPrice}, and quince at $91.`;
+      return `In your cart, you have ${cart[i].itemName} at $${cart[i].itemPrice}, ${cart[i+1].itemName} at $${cart[i + 1].itemPrice}, and quince at $91.`;
     }//for loop end
   }//else end
 }// view cart end
