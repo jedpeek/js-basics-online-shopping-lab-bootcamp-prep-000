@@ -1,5 +1,4 @@
 var cart = [];
-var finalPrice = 0;
 function getCart() {
  return cart;
 }
@@ -39,6 +38,7 @@ function viewCart() {
 
 
 function total() {
+  var finalPrice = 0;
   for(let i = 0; i < cart.length; i++){
     finalPrice += cart[i].itemPrice;
   }
@@ -57,6 +57,7 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   if(cardNumber !== undefined){
+    var finalPrice = total();
        cart = [];
     return `Your total cost is $${finalPrice}, which will be charged to the card ${cardNumber}.`;
     
