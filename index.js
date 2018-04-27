@@ -30,7 +30,7 @@ function viewCart() {
   else{
     var bigCart ="";
     for(let i = 2; i < cart.length; i++){
-    bigCart.push(`, and ${cart.itemName[i]} at $${cart.itemPrice[i]}.`);
+    bigCart.push(`, and ${cart[i].itemName} at $${cart[i].itemPrice}.`);
     }//for loop end
      `In your cart, you have ${cart[0].itemName} at $${cart[0].itemPrice}, ${cart[1].itemName} at $${cart.itemPrice[1].itemPrice}${bigCart}`
   }//else end
