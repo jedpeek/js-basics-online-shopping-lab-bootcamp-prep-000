@@ -58,7 +58,10 @@ function removeFromCart(item) {
 
 function placeOrder(cardNumber) {
   if(cardNumber === true){
-    return ``
-  }
+    return `Your total cost is $${finalPrice}, which will be charged to the card ${cardNumber}.`
+    }
+    else {
+      return 
+    }
   // write your code here
 }
