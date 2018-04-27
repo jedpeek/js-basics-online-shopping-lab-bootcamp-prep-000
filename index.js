@@ -47,10 +47,15 @@ return finalPrice;
 }
 
 function removeFromCart(item) {
+  for(let i = 0; i < cart.length; i++){
   if(item == cart[i].itemName){
     cart.splice(i,1);
-  }
-}
+    }//end if
+  else{
+    return "That item is not in your cart."
+    }//end else
+  }// end for
+}// end function
 
 function placeOrder(cardNumber) {
   // write your code here
